@@ -289,7 +289,7 @@ function App() {
                     <CardContent className="p-6">
                       <div className="flex items-center mb-4">
                         <IconComponent className="w-8 h-8 text-primary mr-3" />
-                        <h3 className="text-lg font-semibold">{skill.name}</h3>
+                        <h3 className="text-lg font-semibold">{skill.name}coucou</h3>
                       </div>
                       <div className="skill-bar mb-2">
                         <div 
@@ -312,7 +312,7 @@ function App() {
       {/* Experience Section */}
       <section id="experience" className="py-20 bg-card">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12">Expérience Professionnelle</h2>
+          <h2 className="text-4xl font-bold text-center mb-12">Ceci est mon experience pro </h2>
           <div className="max-w-4xl mx-auto">
             <div className="space-y-8">
               {experiences.map((exp, index) => (
@@ -386,24 +386,20 @@ function App() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div>
-                    <h4 className="font-semibold mb-2">Technologie et Innovation</h4>
+                    <h4 className="font-semibold mb-2">Ceci est la Technologie et l'Innovation</h4>
                     <p className="text-muted-foreground text-sm">
-                      Passionné par les nouvelles technologies, je participe régulièrement à des 
-                      conférences techniques et contribue à des projets open source.
+                      j'aime beaucoup la cyber et je suis anael                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold mb-2">je Transmission mes Connaissances anael </h4>
+                    <p className="text-muted-foreground text-sm">
+                      j'aime beaucoup pirater
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Transmission de Connaissances</h4>
+                    <h4 className="font-semibold mb-2">Le Sport c'est trop bien</h4>
                     <p className="text-muted-foreground text-sm">
-                      J'interviens régulièrement dans des écoles d'ingénieurs et anime des 
-                      ateliers de sensibilisation à la cybersécurité.
-                    </p>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-2">Sport et Bien-être</h4>
-                    <p className="text-muted-foreground text-sm">
-                      Pratiquant régulier de course à pied et de natation, je crois fermement 
-                      que l'équilibre physique et mental est essentiel.
+                      je fais tout plein de sport j'adore ça
                     </p>
                   </div>
                 </CardContent>
@@ -413,29 +409,26 @@ function App() {
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <Shield className="w-6 h-6 text-primary mr-2" />
-                    Valeurs Professionnelles
+                    ça c'est mes Valeurs Professionnelles
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div>
                     <h4 className="font-semibold mb-2">Intégrité</h4>
                     <p className="text-muted-foreground text-sm">
-                      La cybersécurité repose sur la confiance. Je m'engage à maintenir les 
-                      plus hauts standards d'éthique et de transparence.
+                      La cyber c'est dur mais tqt on s'accroche
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Excellence Technique</h4>
+                    <h4 className="font-semibold mb-2">ça c'est mon Excellence Technique</h4>
                     <p className="text-muted-foreground text-sm">
-                      La recherche constante de l'excellence technique est ma motivation 
-                      quotidienne pour rester à la pointe des menaces.
+                    Je suis le meilleur
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Innovation</h4>
+                    <h4 className="font-semibold mb-2">mes Innovations</h4>
                     <p className="text-muted-foreground text-sm">
-                      Face à des menaces en constante évolution, l'innovation est indispensable 
-                      pour anticiper et contrer les cyberattaques.
+                      Face à des menaces en constante évolution, je fais toujours des conneries
                     </p>
                   </div>
                 </CardContent>
@@ -453,9 +446,9 @@ function App() {
             <div className="grid md:grid-cols-2 gap-12">
               <Card className="hover-lift cyber-border">
                 <CardHeader>
-                  <CardTitle>Informations de Contact</CardTitle>
+                  <CardTitle>SI tu veux me contacter</CardTitle>
                   <CardDescription>
-                    Actuellement ouvert aux opportunités de collaboration et aux missions de conseil.
+                    je suis au chomage
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
